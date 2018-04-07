@@ -1,0 +1,34 @@
+body{
+  background-image: url("jason-blackeye-428759-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.box{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: space-between;
+}
+h1{
+  font-size: 60px;
+}
+p{
+  font-size: 20px;
+}
+ul{
+  padding-top: 20px;
+}
+li{
+  border: 1px solid green;
+  font-size: 25px;
+  transition: transform 1s;
+
+
+}
+li:hover{
+  cursor: pointer;
+  transform: scale(0.97);
+  color: green;
+
+}
